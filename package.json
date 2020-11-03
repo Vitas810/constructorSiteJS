@@ -1,0 +1,21 @@
+{
+  "name": "constructorsitejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitas810/constructorSiteJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitas810/constructorSiteJS/issues"
+  },
+  "homepage": "https://github.com/Vitas810/constructorSiteJS#readme"
+}
