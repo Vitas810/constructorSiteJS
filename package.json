@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
   "scripts": {
-    "serve": "parcel ./src/index.html -p 3000"
+    "serve": "parcel ./src/index.html -p 3000",
+    "build": "parcel build ./src/index.html --no-source-maps"
   },
   "repository": {
     "type": "git",
