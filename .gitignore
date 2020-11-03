@@ -12,6 +12,7 @@ ehthumbs_vista.db
 node_modules/*
 .cache/*
 dist/*
+
 # Dump file
 *.stackdump
 
