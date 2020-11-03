@@ -1,13 +1,14 @@
-import { row, col } from './utils';
+import { row, col, css } from './utils';
 
 function title(block) {
-  return row(col(`<h1>${block.value}</h1>`));
+  const { tag = 'h1', styles } = block.options;
+  return row(col(`<${tag}>${block.value}</${tag}>`), css(styles));
 }
 function text(block) {
   return row(col(`<p>${block.value}</p>`));
 }
 function columns(block) {
-  const html = block.value.map((item) => ` <div class="col-sm">${item}</div>`);
+  const html = block.value.map(col);
   return row(html.join(''));
 }
 function image(block) {
