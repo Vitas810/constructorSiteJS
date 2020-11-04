@@ -5,7 +5,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  left: 200px;
+  left: 215px;
 }
 .sidebar {
   position: fixed;
@@ -14,7 +14,7 @@
   left: 0;
   width: 200px;
   z-index: 100;
-  padding: 10px;
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
   overflow-y: auto;
+  padding-left: 10px;
 }
